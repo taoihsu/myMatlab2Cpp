@@ -1,0 +1,58 @@
+#OcamCalib3D 
+#Date_16032015
+#configuration file for lens 4063 (Ford)
+###FFT_specific_settings###
+#FFT_id
+Universal_01
+#this_file_name
+3MP_OCamCalib3D_config.txt
+#scan_reference_obc_file
+C:\FFT\Tests_2023_02_08_Tokio_Lite_4x\ScanReference\scanreference_FFT_Sailauf_B22_17_12_2018.obc
+#cross_reference_txt_file
+C:\FFT\Tests_2023_02_08_Tokio_Lite_4x\ScanReference\scan_reference_order_FFT_Sailauf_17-12-2018.txt
+#maxDotsLeftRight
+16
+#maxDotsUpperLower
+13
+###camera_type_specific_settings###
+#principal_plane_offset_mm
+2.745
+#pixel_pitch_x_mm
+0.003
+#pixel_pitch_y_mm
+0.003
+#polynomial_Image2World
+6 -0.00370418935097875 0.024582822394419 -0.0512079151728888 -0.00378655845687185 0.713407177128378 0
+#polynomial_World2Image
+6 0.0741941244429088 -0.315489534605087 0.460614878362174 -0.113997055790991 1.42015669206004 0  
+#field_of_view_radians
+3.839724354
+#size_of_sensor_mm_pi
+2.712700449700000
+###image_processing_settings###
+#CenterDotsAreaThreshold_pixels (NTSC Ford Miami 200 400, LVDS Ford/Chrysler Zurich-Lite 300 700)
+300 700
+#DotAreaThreshold_pixels
+10 300
+#DistanceThreshold_pixels range [10 30]
+30
+#BorderThreshold_pixels range [12 20]
+12
+#EdgeThreshold_imfindcircles_scaler range [0 1]
+0.12
+#Radius_range_imfindcircles_pixels
+1 10
+#Gaussian_filter_size range [3 7]
+7
+#median_filter_size range [3 7]
+7
+#MacBethChart_mask_value
+125 125 125
+#Average_reprojection_error
+1.8
+#Maximal_pixelwise_error
+6.0
+#RMSE_in_distortion_polynomials
+0.05
+#Estimated_camera_translation
+4
